@@ -1,0 +1,129 @@
+:root {
+  --primary-bg: #161516;
+  --primary-or: #d58c51;
+  --primary-wh: #ffffff;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header {
+  padding-top: 48px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.link_back {
+  position: relative;
+  background-color: rgba(28, 28, 28, 0);
+  background-image: url("../assets/back.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  flex-shrink: 0;
+  display: inline-block;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin: auto 0;
+  margin-right: 63px;
+}
+.total {
+  color: var(--primary-wh);
+  font-family: "Montserrat" sans-serif;
+  width: 151px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  padding-left: 524px;
+  align-content: center;
+  text-align: right;
+}
+.busket {
+  background-color: var(--primary-or);
+  background-image: url("../assets/busket.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.logout {
+  color: var(--primary-or);
+  width: 200px;
+  height: 42px;
+  border: 1px solid var(--primary-or);
+  background-color: rgba(28, 28, 28, 0);
+  cursor: pointer;
+  margin-left: 22px;
+}
+.container {
+  width: 1230px;
+  height: 505px;
+  margin: auto;
+  display: flex;
+  gap: 99px;
+}
+.image {
+  width: 501px;
+  height: 503px;
+}
+.content {
+  width: 528px;
+  height: 503px;
+}
+.title {
+  width: 414px;
+  height: 74px;
+  color: var(--primary-or);
+  font-family: "Montserrat" sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+  padding-top: 58px;
+}
+.description {
+  color: var(--primary-wh);
+}
+.meaning {
+  width: 528px;
+  display: flex;
+  padding-top: 34px;
+}
+.price {
+  font-family: "Montserrat" sans-serif;
+  width: 65px;
+  height: 21px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+}
+.weight {
+  font-family: "Montserrat" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.add {
+  color: var(--primary-or);
+  width: 200px;
+  height: 42px;
+  border: none;
+  color: var(--primary-bg);
+  background-color: var(--primary-or);
+  cursor: pointer;
+  margin-left: 68px;
+}
