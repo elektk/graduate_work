@@ -47,8 +47,8 @@ export default function MainPage() {
                 </header>
                 <div className={styles.cards}>
                     {products.map((item) => (
-                        <div key={item.id} className={styles.card}  onClick={() => getProduct(item)}>
-                            <div className={styles.image}>
+                        <div key={item.id} className={styles.card} >
+                            <div className={styles.image} onClick={() => getProduct(item)}>
                                 <img className={styles.img} src={`./images/${item.img}`} alt={item.name} />
                             </div>
                             <p className={styles.prodName}>
